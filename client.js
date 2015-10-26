@@ -1,3 +1,5 @@
+var sm = require('sitemap');
+
 var sitemap = sm.createSitemap ({
   hostname: 'http://example.com',
   cacheTime: 600000
