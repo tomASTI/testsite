@@ -1,4 +1,5 @@
 var sm = require('sitemap');
+var fs = require('fs');
 
 var sitemap = sm.createSitemap ({
   hostname: 'http://example.com',
