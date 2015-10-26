@@ -2241,6 +2241,7 @@ module.exports = function () {
 };
 },{}],7:[function(require,module,exports){
 var sm = require('sitemap');
+var fs = require('fs');
 
 var sitemap = sm.createSitemap ({
   hostname: 'http://example.com',
@@ -2253,7 +2254,7 @@ sitemap.del({url: '/page-2/'});
 sitemap.del('/page-1/');
 
 console.log('hello');
-},{"sitemap":1}],8:[function(require,module,exports){
+},{"fs":8,"sitemap":1}],8:[function(require,module,exports){
 
 },{}],9:[function(require,module,exports){
 // http://wiki.commonjs.org/wiki/Unit_Testing/1.0
